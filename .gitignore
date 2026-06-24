@@ -1,6 +1,7 @@
 .env
 bot/.env
+bot/.bot.pid
+bot/bot.log
 __pycache__/
 *.pyc
 .DS_Store
-
