@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#f4f1e8">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-title" content="Day Ping">
-    <title>Day Ping</title>
+    <meta name="apple-mobile-web-app-title" content="Пульс дня">
+    <title>Пульс дня</title>
     <link rel="stylesheet" href="./styles.css">
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script defer src="./app.js"></script>
@@ -15,15 +15,15 @@
     <main class="app-shell">
       <header class="topbar">
         <div>
-          <p class="eyebrow">Telegram Mini App</p>
-          <h1>Day Ping</h1>
+          <p class="eyebrow">Мини-приложение в Telegram</p>
+          <h1>Пульс дня</h1>
         </div>
-        <span class="signal" aria-label="status"></span>
+        <span class="signal" aria-label="статус"></span>
       </header>
 
       <section class="panel mood-panel" aria-labelledby="mood-title">
         <h2 id="mood-title">Настрой</h2>
-        <div class="segmented" role="group" aria-label="Mood">
+        <div class="segmented" role="group" aria-label="Настрой">
           <button class="segment is-active" type="button" data-mood="Спокойно">Спокойно</button>
           <button class="segment" type="button" data-mood="Фокус">Фокус</button>
           <button class="segment" type="button" data-mood="Устал">Устал</button>
@@ -32,7 +32,7 @@
 
       <section class="panel" aria-labelledby="focus-title">
         <label id="focus-title" for="focusInput">Главное на сегодня</label>
-        <textarea id="focusInput" maxlength="180" placeholder="Например: сделать первый коммит"></textarea>
+        <textarea id="focusInput" maxlength="180" placeholder="Например: сделать первый шаг"></textarea>
       </section>
 
       <section class="panel energy-panel" aria-labelledby="energy-title">

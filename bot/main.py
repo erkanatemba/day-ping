@@ -68,7 +68,7 @@ def web_app_keyboard() -> dict | None:
         "keyboard": [
             [
                 {
-                    "text": "Открыть Day Ping",
+                    "text": "Открыть Пульс дня",
                     "web_app": {"url": WEB_APP_URL},
                 }
             ]
@@ -83,7 +83,7 @@ def format_day_ping(data: dict) -> str:
     focus = data.get("focus", "").strip() or "без текста"
 
     return (
-        "Day Ping получен\n\n"
+        "Пульс дня получен\n\n"
         f"Настрой: {mood}\n"
         f"Энергия: {energy}/5\n"
         f"Главное: {focus}"

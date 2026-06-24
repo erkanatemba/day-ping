@@ -1,6 +1,6 @@
-# Day Ping
+# Пульс дня
 
-Day Ping - маленький первый проект, чтобы понять, как устроено приложение для iPhone внутри Telegram.
+Пульс дня - маленький первый проект, чтобы понять, как устроено приложение для iPhone внутри Telegram.
 
 В проекте две части:
 
@@ -67,7 +67,7 @@ GitHub - место, где хранится история кода. Папка
 ```bash
 git init
 git add .
-git commit -m "Create Day Ping starter"
+git commit -m "Create first Telegram mini app"
 git branch -M main
 git remote add origin git@github.com:erkanatemba/day-ping.git
 git push -u origin main
@@ -96,7 +96,7 @@ https://erkanatemba.github.io/day-ping/
 1. Открой Telegram.
 2. Найди `@BotFather`.
 3. Отправь `/newbot`.
-4. Выбери имя, например `Day Ping`.
+4. Выбери имя, например `Пульс дня`.
 5. Выбери username, который заканчивается на `bot`, например `my_day_ping_bot`.
 6. Скопируй токен, который даст BotFather.
 
@@ -129,7 +129,7 @@ python3 bot/main.py
 /start
 ```
 
-Нажми **Открыть Day Ping**, заполни мини-приложение и отправь результат.
+Нажми **Открыть Пульс дня**, заполни мини-приложение и отправь результат.
 
 ## На что смотрит IT-архитектор
 
