@@ -69,11 +69,11 @@ git init
 git add .
 git commit -m "Create Day Ping starter"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/day-ping.git
+git remote add origin git@github.com:erkanatemba/day-ping.git
 git push -u origin main
 ```
 
-Замени `YOUR_USERNAME` на свой username в GitHub.
+Этот шаг уже сделан: проект загружен в <https://github.com/erkanatemba/day-ping>.
 
 ## 4. Опубликуй веб-приложение
 
@@ -85,10 +85,10 @@ git push -u origin main
 6. Folder: `/docs`.
 7. Сохрани.
 
-После публикации ссылка будет похожа на:
+После публикации ссылка будет такой:
 
 ```text
-https://YOUR_USERNAME.github.io/day-ping/
+https://erkanatemba.github.io/day-ping/
 ```
 
 ## 5. Создай Telegram-бота
@@ -114,7 +114,7 @@ cp bot/.env.example bot/.env
 
 ```text
 BOT_TOKEN=the_token_from_botfather
-WEB_APP_URL=https://YOUR_USERNAME.github.io/day-ping/
+WEB_APP_URL=https://erkanatemba.github.io/day-ping/
 ```
 
 ## 7. Запусти бота
